@@ -17,7 +17,7 @@ namespace NK.EntityFramework.Common
     /// </remarks>
     /// <param name="context">データベースコンテキスト。</param>
     /// <param name="cacheService">キャッシュ操作を処理するためのキャッシュサービス。</param>
-    public class RepositoryBase<TEntity, TContext>(TContext context) where TEntity : class where TContext : DbContext
+    public abstract class RepositoryBase<TEntity, TContext>(TContext context) where TEntity : class where TContext : DbContext
     {
         protected readonly TContext context = context;
         protected readonly DbSet<TEntity> dbSet = context.Set<TEntity>();
