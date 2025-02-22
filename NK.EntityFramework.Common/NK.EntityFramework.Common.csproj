@@ -10,7 +10,7 @@
 			NK.EntityFramework.Common is a lightweight library that enhances the functionality of Entity Framework Core by providing generic repository patterns, unit of work support, and additional utilities for easier data access and management.
 		</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/Kaito-Nishihara/NK.Logger</RepositoryUrl>
+		<RepositoryUrl>https://github.com/Kaito-Nishihara/NK.EntityFramework.Common</RepositoryUrl>
 		<PackageTags>EntityFramework</PackageTags>
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
